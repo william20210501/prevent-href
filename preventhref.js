@@ -1,5 +1,5 @@
 if(("standalone" in window.navigator) && window.navigator.standalone){
-    let noddy, remotes = false;
+    let noddy, remotes = true;
     document.addEventListener('click', function(event) {
         noddy = event.target;
         while(noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
